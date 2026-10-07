@@ -1,13 +1,4 @@
-<!doctype html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#101411">
-  <meta name="description" content="Feitosatech. Tecnologia para simplificar processos, conectar sistemas e transformar ideias em soluções digitais.">
-  <title>Feitosatech — Tecnologia que move seu negócio</title>
-  <style>
-    :root{--bg:#101411;--panel:#19201b;--text:#f4f5ee;--muted:#a8b0a8;--lime:#c4f46b;--line:#30372e}
+:root{--bg:#101411;--panel:#19201b;--text:#f4f5ee;--muted:#a8b0a8;--lime:#c4f46b;--line:#30372e}
     *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:90px}body{margin:0;background:var(--bg);color:var(--text);font-family:Arial,Helvetica,sans-serif;-webkit-font-smoothing:antialiased}a{color:inherit;text-decoration:none}button{font:inherit}::selection{background:var(--lime);color:var(--bg)}
     .wrap{width:min(1200px,calc(100% - 96px));margin:auto}header{height:98px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line)}.brand{display:flex;align-items:center;gap:12px;font-weight:750;font-size:23px;letter-spacing:-1px}.mark{display:grid;place-items:center;width:34px;height:34px;background:var(--lime);color:var(--bg);border-radius:7px;font-size:23px;font-weight:900;letter-spacing:-5px;padding-right:5px}.brand small{font-size:11px;letter-spacing:2px;font-weight:500;margin-left:5px;color:var(--muted)}nav{display:flex;align-items:center;gap:32px;font-size:13px}nav a:hover{color:var(--lime)}.nav-contact{border:1px solid #627252;padding:12px 18px;border-radius:30px}.arrow{margin-left:13px}
     .hero{display:grid;grid-template-columns:1.15fr 1fr;gap:56px;align-items:center;padding:88px 0 72px}.eyebrow{font-size:11px;letter-spacing:2px;font-weight:bold;text-transform:uppercase;display:flex;align-items:center;gap:10px;color:var(--lime)}.dot{width:7px;height:7px;border-radius:50%;background:var(--lime)}h1{font-size:clamp(48px,5.2vw,72px);line-height:1.04;font-weight:500;letter-spacing:-4px;margin:27px 0}h1 span{color:var(--lime)}.intro{font-size:16px;line-height:1.8;color:var(--muted);max-width:430px}.actions{display:flex;align-items:center;gap:25px;margin-top:32px}.button{display:inline-flex;align-items:center;justify-content:center;background:var(--lime);color:#172015;border:0;border-radius:30px;padding:17px 24px;font-size:13px;font-weight:bold;cursor:pointer;transition:transform .2s,background .2s}.button:hover{background:#d5ff8f;transform:translateY(-2px)}.text-link{font-size:13px;border-bottom:1px solid #687062;padding:8px 0}.hero-note{display:flex;align-items:center;gap:9px;color:var(--muted);font-size:11px;margin-top:30px}.hero-note svg{color:var(--lime)}
@@ -17,61 +8,3 @@
     @media(min-width:1450px){.hero{padding:110px 0 95px}}@media(max-width:1000px){.wrap{width:calc(100% - 56px)}.hero{gap:30px}h1{font-size:55px}.float-tag{right:0}.service{padding:25px}.about{gap:40px}.contact{padding:38px}.contact h2{font-size:35px}}
     @media(max-width:740px){.wrap{width:calc(100% - 40px)}header{height:78px}.brand{font-size:20px}.brand small{display:none}nav{gap:15px}nav>a:not(.nav-contact){display:none}.nav-contact{font-size:11px;padding:10px 13px}.hero{grid-template-columns:1fr;padding:50px 0 35px;gap:24px}h1{font-size:54px;letter-spacing:-3px}.intro{font-size:15px}.visual{min-height:385px;margin:5px 10px 0}.console{max-width:380px}.orbit{width:320px;height:320px}.orbit:after{width:260px;height:260px;top:29px;left:29px}.float-tag{bottom:20px;right:-8px}.spark{top:16px;right:0}.strip{display:grid;grid-template-columns:1fr 1fr;gap:19px;font-size:9px;letter-spacing:1px}.section{padding:58px 0}.section-heading{display:block;margin-bottom:28px}.section-heading p{margin-top:20px;max-width:100%}h2{font-size:34px;letter-spacing:-1.5px}.services{grid-template-columns:1fr}.service{padding:27px}.service+.service{border-left:0;border-top:1px solid var(--line)}.service-icon{margin:15px 0}.service-tags{margin-top:20px}.about{grid-template-columns:1fr;gap:27px}.contact{display:block;padding:30px 25px;margin-bottom:40px}.contact h2{font-size:34px}.contact .button{margin-top:27px}footer{flex-wrap:wrap;gap:24px}footer p{width:100%;order:3}.footer-links{font-size:11px}}
     @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.button{transition:none}}
-  </style>
-</head>
-<body>
-  <div class="wrap">
-    <header>
-      <a class="brand" href="#inicio" aria-label="Feitosatech, início"><span class="mark" aria-hidden="true">/›</span>feitosa<span style="color:var(--lime)">tech</span></a>
-      <nav aria-label="Navegação principal"><a href="#servicos">Soluções</a><a href="#sobre">Como trabalhamos</a><a class="nav-contact" href="#contato">Vamos conversar <span class="arrow">↗</span></a></nav>
-    </header>
-    <main>
-      <section id="inicio" class="hero">
-        <div>
-          <div class="eyebrow"><span class="dot"></span> Ideias conectadas. Negócios em movimento.</div>
-          <h1>Tecnologia que<br>faz seu negócio<br><span>ir além.</span></h1>
-          <p class="intro">Menos tarefas repetitivas. Mais possibilidades.<br>Transforme processos e ideias em soluções digitais que fazem sentido para o seu negócio.</p>
-          <div class="actions"><a class="button" href="#contato">Vamos tirar sua ideia do papel <span class="arrow">↗</span></a><a class="text-link" href="#servicos">Explore as soluções</a></div>
-          <div class="hero-note"><svg width="15" height="15" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="m4 10 4 4 8-8" stroke="currentColor" stroke-width="1.5"/></svg> Tecnologia com propósito. Do problema à solução.</div>
-        </div>
-        <div class="visual" role="img" aria-label="Ilustração de sistemas conectados por uma solução digital">
-          <div class="orbit"></div><div class="spark" aria-hidden="true">✳</div>
-          <div class="console"><div class="console-top"><div class="lights"><i></i><i></i><i></i></div><span>feitosatech / soluções</span><span>↗</span></div><div class="console-body"><div class="console-label">DA COMPLEXIDADE À CONEXÃO</div><h3>Seu próximo passo, conectado.</h3><div class="flow"><div class="flow-box">&lt;/&gt;</div><span class="connector">···</span><div class="flow-box main">ft.</div><span class="connector">···</span><div class="flow-box">↗</div></div><div class="code"><span style="color:#6d8066">// ideias que viram soluções</span><br><em>conectar</em>(pessoas, processos);<br><em>simplificar</em>(rotina);<br><em>construir</em>(próximo_passo);</div><div class="console-footer"><span class="status"><span class="dot"></span> Pronto para transformar</span><span>01 — ∞</span></div></div></div>
-          <div class="float-tag"><b>↗</b><div>Seu negócio.<br><strong>Novas possibilidades.</strong></div></div><span class="visual-caption">CONCEITO VISUAL • FEITOSATECH</span>
-        </div>
-      </section>
-      <div class="strip"><span><b>↗</b> Desenvolvimento</span><span><b>⌘</b> Integrações</span><span><b>ϟ</b> Automação</span><span><b>✳</b> Estratégia digital</span></div>
-      <section class="section" id="servicos">
-        <div class="section-heading"><div><div class="eyebrow">01 / Soluções</div><h2>O próximo passo do seu negócio<br>começa com a solução certa.</h2></div><p>Da presença digital aos processos internos, a tecnologia pode deixar tudo mais simples.</p></div>
-        <div class="services">
-          <article class="service"><span class="service-number">01 / CONSTRUIR</span><div class="service-icon" aria-hidden="true">&lt;/&gt;</div><h3>Sites & soluções digitais</h3><p>Uma presença digital clara e experiências pensadas para aproximar sua empresa de quem precisa dela.</p><div class="service-tags"><span>Sites</span><span>Landing pages</span><span>Sistemas</span></div></article>
-          <article class="service"><span class="service-number">02 / CONECTAR</span><div class="service-icon" aria-hidden="true">⌘</div><h3>Integrações & automação</h3><p>Conecte ferramentas e simplifique tarefas do dia a dia. Menos trabalho manual, mais espaço para o que importa.</p><div class="service-tags"><span>APIs</span><span>Fluxos de trabalho</span><span>Processos</span></div></article>
-          <article class="service"><span class="service-number">03 / EVOLUIR</span><div class="service-icon" aria-hidden="true">↗</div><h3>Consultoria em tecnologia</h3><p>Entenda o desafio, organize as prioridades e encontre um caminho viável para dar o próximo passo.</p><div class="service-tags"><span>Diagnóstico</span><span>Planejamento</span><span>Evolução digital</span></div></article>
-        </div>
-      </section>
-      <section class="section about" id="sobre"><div><div class="eyebrow">02 / Nossa abordagem</div><h2>Primeiro, entendemos.<br>Depois, construímos.<br><span style="color:var(--lime)">Juntos.</span></h2></div><div><p class="about-text">Cada negócio tem seu ritmo, seus desafios e suas ambições. A proposta da Feitosatech é aproximar a tecnologia da sua realidade, com clareza em cada etapa.</p><div class="steps"><div class="step"><span>01</span><div><h3>Uma conversa para começar</h3><p>Entender sua ideia, o contexto e o que precisa melhorar.</p></div></div><div class="step"><span>02</span><div><h3>Um caminho bem definido</h3><p>Alinhar a solução, o escopo e as próximas etapas.</p></div></div><div class="step"><span>03</span><div><h3>Da ideia para a prática</h3><p>Construir, validar e preparar a solução para o dia a dia.</p></div></div></div></div></section>
-      <section class="contact" id="contato"><div><div class="eyebrow">03 / Vamos conversar</div><h2>Sua próxima ideia<br>merece sair do papel.</h2><p>Tem um projeto em mente ou um processo para melhorar?<br>Vamos encontrar o próximo passo para o seu negócio.</p></div><a class="button" id="contact-link" href="#contato" aria-label="Entrar em contato com a Feitosatech">Fale com a Feitosatech <span class="arrow">↗</span></a></section>
-    </main>
-    <footer><a class="brand" href="#inicio"><span class="mark" aria-hidden="true">/›</span>feitosa<span style="color:var(--lime)">tech</span></a><p>© <span id="year">2026</span> Feitosatech. Todos os direitos reservados.</p><div class="footer-links"><a href="#servicos">Soluções</a><a href="#contato">Contato ↗</a></div></footer>
-  </div>
-  <script>
-    // Insira seu e-mail ou link do WhatsApp (https://wa.me/55DDDNUMERO).
-    const CONTACT_URL = '';
-    document.getElementById('year').textContent = new Date().getFullYear();
-    const contact = document.getElementById('contact-link');
-    if (CONTACT_URL) contact.href = CONTACT_URL;
-    else {
-      contact.removeAttribute('href');
-      contact.setAttribute('role', 'button');
-      contact.setAttribute('tabindex', '0');
-      const showPending = () => {
-        contact.textContent = 'Canal de contato em breve';
-        contact.setAttribute('aria-live', 'polite');
-      };
-      contact.addEventListener('click', showPending);
-      contact.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); showPending(); } });
-    }
-  </script>
-</body>
-</html>
-
